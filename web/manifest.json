@@ -1,6 +1,6 @@
 {
-    "name": "sedung",
-    "short_name": "sedung",
+    "name": "sedung_id",
+    "short_name": "sedung_id",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

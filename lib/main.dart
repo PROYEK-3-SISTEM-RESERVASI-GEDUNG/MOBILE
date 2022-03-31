@@ -1,23 +1,16 @@
 import 'package:flutter/material.dart';
-import 'Screen/login/login.dart';
+import 'package:sedung_id/screens/screens.dart';
 
-void main() {
-  runApp(MyApp());
+void main() {     
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Login',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Color(0xFF2661FA),
-        scaffoldBackgroundColor: Colors.white,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: LoginScreen(),
-    );
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false, home: LoginScreen());
   }
 }

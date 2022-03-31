@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(sedung LANGUAGES CXX)
+project(sedung_id LANGUAGES CXX)
 
-set(BINARY_NAME "sedung")
+set(BINARY_NAME "sedung_id")
 
 cmake_policy(SET CMP0063 NEW)
 
